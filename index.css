@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background: radial-gradient(
+    ellipse at top,
+    rgb(242, 245, 92) -80%,
+    rgb(32, 33, 41) 60%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: white;
+}
+
+.header {
+  height: 30px;
+  background-color: rgba(24, 24, 24, 0.8);
+  display: flex;
+  color: white;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  margin: 0px 15px 10px 15px;
+}
+
+.nav {
+  width: 100vw;
+  height: 55px;
+  padding-bottom: 3px;
+  background-color: rgba(30, 30, 30, 0.7);
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 0 0 10px 10px;
+}
+
+.t1 {
+  margin-left: 12px;
+}
+
+.t2 {
+  margin: 0 10px 0 10px;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 30px;
+}
+
+.app {
+  max-width: 260px;
+  width: 100%;
+  height: 350px;
+  background-color: rgb(24, 24, 24, 0.7);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.app :hover {
+  box-shadow: 1px 1px 10px grey;
+}
+
+.text {
+  min-width: 100%;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.graph {
+  width: 650px;
+  height: 550px;
+  background-color: rgb(24, 24, 24, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  margin-top: -40px;
+  margin-left: -200px;
+}
+.graph :hover {
+  box-shadow: 1px 1px 10px grey;
+}
+
+.graph__text {
+  color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 10px;
+}
